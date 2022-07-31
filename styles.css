@@ -145,10 +145,13 @@ background: #E8E8E8;
 
 .container-banner {
     margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner{
-    height: 250px;
+    
     display: flex;
     align-items: center;
     background: #121214;
