@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Roboto', sans-serif;
+}
+
+body{
+    background: linear-gradient( 90deg,#1076ca69,#f1dc968a,#e6d87cda);
+}
+
+
+header{
+    height: 120px;
+    
+}
+
+.container-header{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 40px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    width: 180px;
+    padding: auto;
+    margin-bottom: 20px;
+}
+.menu nav ul{
+    display: flex;
+    
+}
+.menu nav ul li{
+    list-style: none;
+    padding: 0px 20px;
+    margin-top: 20px;
+     
+    
+    
+}
+.menu nav ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(46, 38, 161);
+    transition: opacity 300ms;
+    transition: background 300ms;
+}
+.menu nav ul li a:hover {
+    opacity: 0.6;
+}
+.btn-header-contacto,
+.btn_contacto_cover{
+    padding: 14px 50px;
+    border: none;
+    background: rgb(46, 38, 161);
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background, color, 300ms;
+    
+}
+.btn-header-contacto:hover,
+.btn_contacto_cover:hover{
+    background: #0b8992;
+    color: black;
+}
+
+/*portada-cover*/
+
+main{
+    max-width: 1200px;
+    height: calc(100vh + 800px);
+    padding: 40px;
+    margin: auto;
+
+}
+.cover{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.text-informacion-cover{
+    width: 50%;
+    margin-top: 40px;
+}
+.text-informacion-cover h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.text-informacion-cover p {
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.button-cover{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+
+}
+
+.btn-leermas-cover{
+    padding: 14px 40px;
+    border: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background 300ms;
+}
+
+.btn-leermas-cover:hover{
+background: #E8E8E8;
+}
+
+.media-cover {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+}
+.media-cover img{
+    width: 70%;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    border-radius: 50%;
+}
+
+
+/*banner*/
+
+
+.container-banner {
+    margin-top: 80px;
+}
+
+.banner{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    background: #121214;
+    position: relative;
+}
+.banner-icon-bottom{
+    width: 35%;
+    height: 100%;
+
+}
+
+#icon-bottom {
+    width: 330px;
+    margin-top:-20px;
+    position: relative;
+    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,1));
+}
+
+.banner-text{
+    
+    width: 60%;
+    position: relative;
+    padding: 40px;
+}
+.banner-text h2{
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+   
+
+
+
+
+
