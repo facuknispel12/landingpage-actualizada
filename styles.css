@@ -10,7 +10,10 @@
 }
 
 body{
-    background: linear-gradient( 90deg,#1076cac4,#f1dc96bd,#e6d87c85);
+    /*background: linear-gradient( 90deg,#1076cac4,#f1dc96bd,#e6d87c85);*/
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
 }
 
 
@@ -18,7 +21,14 @@ header{
     height: 120px;
     
 }
-
+.linea {
+    border-top: 1px solid rgba(0, 0, 0, 0.692);
+    height: 5px;
+    max-width: 2400px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    
+  }
 .container-header{
     max-width: 1200px;
     height: 100%;
@@ -82,12 +92,14 @@ main{
     height: calc(100vh + 800px);
     padding: 40px;
     margin: auto;
+    
 
 }
 .cover{
     display: flex;
     justify-content: center;
     margin-top: 60px;
+    
 }
 .text-informacion-cover{
     width: 50%;
@@ -102,6 +114,7 @@ main{
     font-size: 18px;
     margin-top: 40px;
     text-align: center;
+    color: black;
 }
 
 .button-cover{
@@ -123,7 +136,7 @@ main{
 }
 
 .btn-leermas-cover:hover{
-background: #E8E8E8;
+background: #ffffff;
 }
 
 .media-cover {
@@ -137,6 +150,7 @@ background: #E8E8E8;
     margin-bottom: 10px;
     margin-left: 70px;
     border-radius: 50%;
+    box-shadow: 1px 6px 13px 0px rgb(31 30 69 / 70%);
 }
 
 
