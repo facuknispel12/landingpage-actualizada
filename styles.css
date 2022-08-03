@@ -10,7 +10,7 @@
 }
 
 body{
-    /*background: linear-gradient( 90deg,#1076cac4,#f1dc96bd,#e6d87c85);*/
+    
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 
@@ -19,6 +19,7 @@ body{
 
 header{
     height: 120px;
+    
     
 }
 .linea {
@@ -191,7 +192,7 @@ background: #ffffff;
     padding: 40px;
 }
 .banner-text h2{
-    color: whitesmoke;
+    color:rgb(187, 186, 186);
     font-size: 25px;
     font-weight: 400;
 }
