@@ -353,5 +353,64 @@ float: left;
 }
 
 
+@media (max-width:800px){ 
 
+    .linea { 
+        display: none;
+    }
+
+    .media-cover { 
+        display: none;
+    }
+
+    .container-header { 
+       padding: 10px;
+        flex-direction: column;
+    }
+    
+    .btn-header-contacto { 
+        margin-top: 20px;
+    }
+
+    .banner { 
+        flex-direction: column;
+
+    }
+    
+
+    .container-card { 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .card-html { 
+        margin-top: 10px;
+        width: 100px;
+        height: 180px;
+    }
+   
+    .card-css { 
+        width: 100px;
+        height: 180px;
+        margin-top: 0;
+    }
+
+    .card-js { 
+        width: 100px;
+        height: 180px;
+        margin-top: 0;
+        background-position: 8em;
+    }
+
+    .footer-content p { 
+        font-size: 0.8em;
+
+    }
+
+    .footer-bottom p { 
+        float: none; }
+}
 
