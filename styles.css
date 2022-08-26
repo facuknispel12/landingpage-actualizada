@@ -375,13 +375,14 @@ footer{
     .btn-header-contacto { 
         margin-top: 20px;
     }
-    .text-informacion-cover h1 { 
-       font-size: 2.5em;
+    .text-informacion-cover  { 
+       width: 100%;
        
-        
+    }
+    
+    .text-informacion-cover h1 { 
         
     }
-
     .btn-leermas-cover,.btn_contacto_cover{ 
         padding: 14px 30px;
     }
