@@ -332,11 +332,11 @@ footer{
     background: #000;
     width: 100vw;
     padding: 20px;
-padding-bottom: 40px;
+    padding-bottom: 40px;
     text-align: center;
 }
 .footer-bottom p{
-float: left;
+    float: left;
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
@@ -353,7 +353,9 @@ float: left;
 }
 
 
-@media (max-width:700px){ 
+   
+
+@media (max-width:700px) { 
 
     .linea { 
         display: none;
@@ -367,16 +369,28 @@ float: left;
        padding: 10px;
         flex-direction: column;
     }
-    
+    .menu nav ul li{ 
+        padding: 0px 5px;
+    }
     .btn-header-contacto { 
         margin-top: 20px;
     }
+    .text-informacion-cover h1 { 
+        font-size: 2em;
+    }
 
+    .btn-leermas-cover,.btn_contacto_cover{ 
+        padding: 14px 30px;
+    }
     .banner { 
         flex-direction: column;
 
     }
     .banner-icon-bottom { 
+        width: auto;
+    }
+
+    .banner-text { 
         width: auto;
     }
     
@@ -387,7 +401,7 @@ float: left;
     }
 
     .card-html { 
-        margin-top: 10px;
+        
         width: 100px;
         height: 180px;
     }
@@ -395,18 +409,18 @@ float: left;
     .card-css { 
         width: 100px;
         height: 180px;
-        margin-top: 0;
+        
     }
 
     .card-js { 
         width: 100px;
         height: 180px;
-        margin-top: 0;
+        
         background-position: 8em;
     }
 
     .footer-content p { 
-        font-size: 0.8em;
+        font-size: 0.7em;
 
     }
 
